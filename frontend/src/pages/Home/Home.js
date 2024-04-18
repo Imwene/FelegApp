@@ -4,13 +4,15 @@ import { Link } from "react-router-dom";
 import "./Home.scss";
 import heroImg from "../../assets/inv-img.png";
 import { ShowOnLogin, ShowOnLogout } from "../../components/protect/HiddenLink";
+import logo from '../../assets/FelegWeb_Logo-01.png'; // Import the logo image
 
 const Home = () => {
   return (
     <div className="home">
       <nav className="container --flex-between ">
         <div className="logo">
-          <RiProductHuntLine size={35} />
+          {/* <RiProductHuntLine size={70} /> */}
+          <img src={logo} alt="Feleg Logo" width={161} height={70} />
         </div>
 
         <ul className="home-links">
@@ -38,10 +40,10 @@ const Home = () => {
       {/* HERO SECTION */}
       <section className="container hero">
         <div className="hero-text">
-          <h2>Inventory {"&"} Stock Management Solution</h2>
+          <h2>Feleg Energy Inventory Management Solution</h2>
           <p>
-            Inventory system to control and manage proucts in the warehouse in
-            real timeand integrated to make it easier to develop your business.
+            Inventory system to control and manage proucts at KPA storage in
+            real time, integrated to make it easier to develop your business.
           </p>
           <div className="hero-buttons">
             <button className="--btn --btn-secondary">
@@ -49,9 +51,9 @@ const Home = () => {
             </button>
           </div>
           <div className="--flex-start">
-            <NumberText num="14K" text="Brand Owners" />
-            <NumberText num="23K" text="Active Users" />
-            <NumberText num="500+" text="Partners" />
+            <NumberText num="14K" text="Total Units" />
+            <NumberText num="13" text="Active Users" />
+            <NumberText num="15+" text="Partners" />
           </div>
         </div>
 
