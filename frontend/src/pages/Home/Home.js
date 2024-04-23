@@ -52,8 +52,8 @@ const Home = () => {
           </div>
           <div className="--flex-start">
             <NumberText num="14K" text="Total Units" />
-            <NumberText num="13" text="Active Users" />
-            <NumberText num="15+" text="Partners" />
+            <NumberText num="7" text="Active Users" />
+            <NumberText num="8K" text="Remaining Units" />
           </div>
         </div>
 
