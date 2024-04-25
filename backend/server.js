@@ -31,7 +31,7 @@ app.use("/api/users", userRoute);
 app.use("/api/products", productRoute);
 app.use("/api/contactus", contactRoute);
 
-// Routes
+// Routes.
 app.get("/", (req, res) => {
   res.send("Home Page");
 });
