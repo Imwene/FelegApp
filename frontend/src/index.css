@@ -6,7 +6,7 @@
 
   --font-family: "Poppins", sans-serif;
   --dark-blue: #0a1930;
-  --light-blue: #1f93ff;
+  --light-blue: #058593;
 
   --color-white: #fff;
   --color-dark: #333;
@@ -14,11 +14,11 @@
   --color-grey: #eee;
   --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 
-  --color-purple: #9d0191;
+  --color-purple: #f29c22;
   --color-orange: #ff7722;
 
-  --color-primary: #007bff;
-  --color-success: #28a745;
+  --color-primary: #058593;
+  --color-success: #0fbe93;
   --color-danger: orangered;
 }
 
@@ -194,13 +194,13 @@ p {
 }
 
 .--color-primary {
-  color: #007bff;
+  color: #058593;
 }
 .--color-danger {
-  color: orangered;
+  color: #f29c22;
 }
 .--color-success {
-  color: #28a745;
+  color: #0fbe93;
 }
 
 .--color-white {
@@ -319,7 +319,7 @@ p {
 
 .--btn-primary {
   color: #fff;
-  background: #007bff;
+  background: #058593;
 }
 .--btn-secondary {
   color: #fff;
@@ -333,7 +333,7 @@ p {
 
 .--btn-success {
   color: #fff;
-  background: #28a745;
+  background: #058593;
 }
 
 /* Background */
